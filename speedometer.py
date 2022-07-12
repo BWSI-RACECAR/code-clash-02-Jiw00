@@ -37,7 +37,7 @@ class Solution:
                 if target == i+j:
                     return [ary.index(i),ary.index(j)]
        # TODO: Write code below to return a list with the solution to the prompt
-        
+        return False
 
 def main():
     array = input().split(" ")
